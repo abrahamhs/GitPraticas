@@ -31,3 +31,7 @@ git rm: se usa para eliminar un archivo de git pero este se puede recuperar usan
     - git rm --cached: Elimina los archivo del area de staging y del proximo commit pero los matiene en el disco duro.
     - git rm --force: elimina los archivo de Git y del disco, aunque existe la posibilidad de recupareacion con comandos avanzados.
 
+git reset: es un como el git checkout pero permanente este no tiene vuelta atras asi que hay que usarlo con precaucion.
+    -git reset --soft: borra todo el historial y el registro de git. se guardan los cambios que se encuentan en staging.
+    -git reset --hard: hace un borrado definitivo de los commits y del area de staging.
+    -git reset HEAD: saca los archivos del area de staging para que no se haga al siguiente commit.
