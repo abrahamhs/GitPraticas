@@ -35,3 +35,9 @@ git reset: es un como el git checkout pero permanente este no tiene vuelta atras
     -git reset --soft: borra todo el historial y el registro de git. se guardan los cambios que se encuentan en staging.
     -git reset --hard: hace un borrado definitivo de los commits y del area de staging.
     -git reset HEAD: saca los archivos del area de staging para que no se haga al siguiente commit.
+
+git clone url: Se trae todo los archivos de un repositorio remoto y deja todo liisto para trabajar en el directorio local.
+
+git push: envia todo los cambios del directorio local al remoto.
+
+git pull: obtienes una copia actualizada de repositorio remoto es un comando mas completo que combina un git fech con un git merge.
