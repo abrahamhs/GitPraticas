@@ -43,5 +43,12 @@ git push: envia todo los cambios del directorio local al remoto.
 
 git pull: obtienes una copia actualizada de repositorio remoto es un comando mas completo que combina un git fech con un git merge.
 
+****************************** Comando Avanzados*********************************************
+ Hasta ahora hemos trabajado en la rama principal del repositorio local de Git pero podemos crear ramas alternativas para hacer modificaciones sin que estas se guarde en la rama master del proyecto, esto es util para hacer cambios mayores de una version a otra y testear posibles ramificaciones del proyecto que puede ser testeadas y solo fucionadas con la rama master una vez verificados y testeados los cambios.
+
+git branch XXXX: crear una rama identica a la rama actual del proyecto es una bifurcacion una copia de su estado actual, este comando solo lo crea, pero para trabajar despues desde esa bifurcacion del proyecto, debemos usar "git checkout XXXX", esto nos mueve de la rama master a la birfucacion creada y es aqui, donde se empezaran a guardar los cambios hecho al repositorio en el actual estado, sin que estos se guarden en la rama principal.
+
+
+
 
 
