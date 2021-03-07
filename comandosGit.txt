@@ -23,4 +23,6 @@ git config --global user.name "" or user.email "": se usa para configurar los da
 
 git diff: se usa para comparar commit para esto se de usar el comando: git diff + commit1 + commit2.
 
-git reset "commitX": se usa para devolver el repositorio a un estado anterior el commiX es ese estado anterior, este comando se debe complatar con (--soft: que no borra los commit antes realizados) o (--hard: que borra todo los commit hechos despue anteriormente dejando solo el commit del estado anterior a que se regreso el directorio git)  
+git reset "commitX": se usa para devolver el repositorio a un estado anterior el commiX es ese estado anterior, este comando se debe complatar con (--soft: que no borra los commit antes realizados) o (--hard: que borra todo los commit hechos despue anteriormente dejando solo el commit del estado anterior a que se regreso el directorio git).
+
+git checkout + commitX: devueleve el estado del directorio a un commit anterior, usando git checkout master se devuelve el directorio a la rama master en su estado actual. si se desean conservar los cambios de sebe usar git add y un commit para giardar los cambios. 
