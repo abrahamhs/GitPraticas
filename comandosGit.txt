@@ -50,6 +50,10 @@ git branch XXXX: crear una rama identica a la rama actual del proyecto es una bi
 
 git merge XXXXX : fusiona los cambios de la rama solicitada, si estamos en la rama master y hacemos un merge desde alli invocando la birfurcacion, los cambios de esta birfucacion se fucionan con la rama master. Si por el contrario estamos trabajando en la rama bifurcada y hacemos un merge de la rama master igual se fucionan, pero la rama con la bifurcacion pasa a ser la rama master.
 
+*************************** conflictos en Git ********************************************
 
+Los conflictos en Git ocurren cuando se fucionan una bifurcacion haciendo merge, donde se han cambiados las misma lineas de contenido en ambas ramas.
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 
