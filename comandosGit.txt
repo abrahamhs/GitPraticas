@@ -54,6 +54,6 @@ git merge XXXXX : fusiona los cambios de la rama solicitada, si estamos en la ra
 
 Los conflictos en Git ocurren cuando se fucionan una bifurcacion haciendo merge, donde se han cambiados las misma lineas de contenido en ambas ramas.
 
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+******************************************************************************************
 
 
