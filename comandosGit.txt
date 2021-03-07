@@ -1,0 +1,19 @@
+Comandos Git: 
+
+La estructura principal parte del comendo " git + XXX "
+
+git init:  inicializa git en el directorio en el que se encuentra
+
+git add: agrega los archivos para ser trakeado o monitorizados por git, se puede hacer un seguimiento a un archivo especifico mediate el comando, "git add (archivo)" o se puede agregar todos los archivos de directorio, mediante el comando "git add .".
+
+git rm (archivo): saca el archivo del seguimiento de git, aunque sigue existiendo una copia de lo trakeado en el cached, para borrarlo del cache de git se debe usar el comando "git rm --cached (archivo)"
+
+git status: visualiza el estado actual de git de los caambios ejecutados pero no guadados.
+
+git commit -m "texto de caambios realizados": guarda los cambios en el registro de git realizados, de los archivos de texto plano dentro de la carpeta donde se uso un init, notece que el comando exige un comentario para especificar en los registros los cambio realizados.
+
+git log: con este comando se ver el historial de todos los commit realizados.
+ 
+git --help: ayuda de comandos de git.
+
+git config --global user.name "" or user.email "": se usa para configurar los datos del usuario en las variable del repositorio local de git entre comilla se colocan los nombres de los datos a cambiar o el email a modificar.
