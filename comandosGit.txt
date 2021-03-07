@@ -48,6 +48,7 @@ git pull: obtienes una copia actualizada de repositorio remoto es un comando mas
 
 git branch XXXX: crear una rama identica a la rama actual del proyecto es una bifurcacion una copia de su estado actual, este comando solo lo crea, pero para trabajar despues desde esa bifurcacion del proyecto, debemos usar "git checkout XXXX", esto nos mueve de la rama master a la birfucacion creada y es aqui, donde se empezaran a guardar los cambios hecho al repositorio en el actual estado, sin que estos se guarden en la rama principal.
 
+git merge XXXXX : fusiona los cambios de la rama solicitada, si estamos en la rama master y hacemos un merge desde alli invocando la birfurcacion, los cambios de esta birfucacion se fucionan con la rama master. Si por el contrario estamos trabajando en la rama bifurcada y hacemos un merge de la rama master igual se fucionan, pero la rama con la bifurcacion pasa a ser la rama master.
 
 
 
