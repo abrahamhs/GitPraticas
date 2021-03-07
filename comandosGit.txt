@@ -1,3 +1,4 @@
+git log
 Comandos Git: 
 
 La estructura principal parte del comendo " git + XXX "
@@ -13,6 +14,8 @@ git status: visualiza el estado actual de git de los caambios ejecutados pero no
 git commit -m "texto de caambios realizados": guarda los cambios en el registro de git realizados, de los archivos de texto plano dentro de la carpeta donde se uso un init, notece que el comando exige un comentario para especificar en los registros los cambio realizados.
 
 git log: con este comando se ver el historial de todos los commit realizados.
+
+git show (archivo): muestra los cambios de un archivos y sus cambios.
  
 git --help: ayuda de comandos de git.
 
