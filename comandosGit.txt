@@ -10,7 +10,8 @@ git rm (archivo): saca el archivo del seguimiento de git, aunque sigue existiend
 
 git status: visualiza el estado actual de git de los caambios ejecutados pero no guadados.
 
-git commit -m "texto de caambios realizados": guarda los cambios en el registro de git realizados, de los archivos de texto plano dentro de la carpeta donde se uso un init, notece que el comando exige un comentario para especificar en los registros los cambio realizados. El commit solo funciona si se realiza antes un "git add".
+    -git commit -m "texto de caambios realizados": guarda los cambios en el registro de git realizados, de los archivos de texto plano dentro de la carpeta donde se uso un init, notece que el comando exige un comentario para especificar en los registros los cambio realizados. El commit solo funciona si se realiza antes un "git add".
+    -git commit -am: es una integraciion de los comandos git add + git commit -m, pero solo funciona para archivos anteriormente agregados al staging con "git add".
 
 
 git log: con este comando se ver el historial de todos los commit realizados, con "git log --stat" se muestra los cambios realizado en una lista, para salir de esa lista se usa la letra "Q"
@@ -41,3 +42,6 @@ git clone url: Se trae todo los archivos de un repositorio remoto y deja todo li
 git push: envia todo los cambios del directorio local al remoto.
 
 git pull: obtienes una copia actualizada de repositorio remoto es un comando mas completo que combina un git fech con un git merge.
+
+
+
