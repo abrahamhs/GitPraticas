@@ -1,5 +1,4 @@
-git log
-Comandos Git: 
+Comandos basico de Git: 
 
 La estructura principal parte del comendo " git + XXX "
 
