@@ -19,3 +19,5 @@ git show (archivo): muestra los cambios de un archivos y sus cambios.
 git --help: ayuda de comandos de git.
 
 git config --global user.name "" or user.email "": se usa para configurar los datos del usuario en las variable del repositorio local de git entre comilla se colocan los nombres de los datos a cambiar o el email a modificar.
+
+git diff: se usa para comparar commit para esto se de usar el comando: git diff + commit1 + commit2. 
