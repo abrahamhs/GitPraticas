@@ -10,7 +10,8 @@ git rm (archivo): saca el archivo del seguimiento de git, aunque sigue existiend
 
 git status: visualiza el estado actual de git de los caambios ejecutados pero no guadados.
 
-git commit -m "texto de caambios realizados": guarda los cambios en el registro de git realizados, de los archivos de texto plano dentro de la carpeta donde se uso un init, notece que el comando exige un comentario para especificar en los registros los cambio realizados.
+git commit -m "texto de caambios realizados": guarda los cambios en el registro de git realizados, de los archivos de texto plano dentro de la carpeta donde se uso un init, notece que el comando exige un comentario para especificar en los registros los cambio realizados. El commit solo funciona si se realiza antes un "git add".
+
 
 git log: con este comando se ver el historial de todos los commit realizados.
 
