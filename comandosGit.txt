@@ -25,4 +25,9 @@ git diff: se usa para comparar commit para esto se de usar el comando: git diff 
 
 git reset "commitX": se usa para devolver el repositorio a un estado anterior el commiX es ese estado anterior, este comando se debe complatar con (--soft: que no borra los commit antes realizados) o (--hard: que borra todo los commit hechos despue anteriormente dejando solo el commit del estado anterior a que se regreso el directorio git).
 
-git checkout + commitX: devueleve el estado del directorio a un commit anterior, usando git checkout master se devuelve el directorio a la rama master en su estado actual. si se desean conservar los cambios de sebe usar git add y un commit para giardar los cambios. 
+git checkout + commitX: devueleve el estado del directorio a un commit anterior, usando git checkout master se devuelve el directorio a la rama master en su estado actual. si se desean conservar los cambios de sebe usar git add y un commit para guardar los cambios y que queden en la rama master.
+
+git rm: se usa para eliminar un archivo de git pero este se puede recuperar usando un checkout + el commitX + (nombre del archivo) donde se encuentar ese archivo. 
+    - git rm --cached: Elimina los archivo del area de staging y del proximo commit pero los matiene en el disco duro.
+    - git rm --force: elimina los archivo de Git y del disco, aunque existe la posibilidad de recupareacion con comandos avanzados.
+
