@@ -76,3 +76,12 @@ los tag es una manera simplificada de asignar nombre a los diferente commit crea
 git tag nombredeltag -m "comentario al igual que los commit" + commit.
 
 git tag: muestra los diferebtes tag guardados.
+
+git push origin --tags:  envia los tags al servidor remoto. 
+
+git tag -d nombredeltag: borra el tag creado en el repositorio local pero no en el remoto.
+
+git push origin :refs/tags/nombredetag: este comando borra el tag de github.
+
+git show-ref --tags: muestra a que commit esta enlazado el tag.
+
