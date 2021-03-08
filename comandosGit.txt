@@ -15,6 +15,9 @@ git status: visualiza el estado actual de git de los caambios ejecutados pero no
 
 
 git log: con este comando se ver el historial de todos los commit realizados, con "git log --stat" se muestra los cambios realizado en una lista, para salir de esa lista se usa la letra "Q"
+    -git log --all: muestra todo los log.
+    -git log --all --graph : muestra por medio de rayas las historia de las ramas.
+    -git log --all --graph --decorate -- oneline: muestra de forma comprimida el historial de los log.
 
 git show (archivo): muestra los cambios de un archivos y sus cambios.
  
@@ -66,3 +69,4 @@ git push origin master: este comando envia la rama master a el espacio remote en
 git pull origin master: se trae todo lo que esta en el repositorio. Probablemente salga una advertencia y eso es porque toca fusionar la historia de cambios del espacio remoto con los de la rama master local y esto se hace con  --allow-unrelated-histories.
 
 git remote set-url origin: con este comando se cambia el repositorio remoto agregado anteriormente.
+
