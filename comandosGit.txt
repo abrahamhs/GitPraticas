@@ -88,3 +88,4 @@ git show-ref --tags: muestra a que commit esta enlazado el tag.
 ****************** Branchs ************************
 git show-branch: muestra las ramas y su log de forma resumida se puede acompañar con "--all".
 gitk: muestra en un software de forma visual la historia de las ramas.
+git push origin nombrerama: envia la rama al repositorio remoto.
