@@ -7,3 +7,6 @@ ssh-keygen -t rsa -b 4096 -C "tu@email.com"
 
 eval $(ssh-agent -s): verifica si el agente ssh esta actvo en el sistema debera arroja el pid del agent.
 ssh-add + direcion id_rsa
+
+*creando tag de comando en linux *
+alias nombre="comando largo"
