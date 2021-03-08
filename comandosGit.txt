@@ -65,3 +65,4 @@ git push origin master: este comando envia la rama master a el espacio remote en
 
 git pull origin master: se trae todo lo que esta en el repositorio. Probablemente salga una advertencia y eso es porque toca fusionar la historia de cambios del espacio remoto con los de la rama master local y esto se hace con  --allow-unrelated-histories.
 
+git remote set-url origin: con este comando se cambia el repositorio remoto agregado anteriormente.
