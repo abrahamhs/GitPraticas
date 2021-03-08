@@ -73,4 +73,6 @@ git remote set-url origin: con este comando se cambia el repositorio remoto agre
 ****************** Tags en git ********************
 los tag es una manera simplificada de asignar nombre a los diferente commit creados por el log, estos suelen usarse para crear los nombres de la versiones.
 
-git tag nombredeltag -m "comentario al igual que los commit"
+git tag nombredeltag -m "comentario al igual que los commit" + commit.
+
+git tag: muestra los diferebtes tag guardados.
