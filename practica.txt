@@ -1,3 +1,6 @@
 esto es un ensayo.
 
 ******************** este es una actualizacion desde github***************
+
+******* este comando genera una llave ssh en local
+ssh-keygen -t rsa -b 4096 -C "tu@email.com"
