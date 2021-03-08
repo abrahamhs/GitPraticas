@@ -56,4 +56,12 @@ Los conflictos en Git ocurren cuando se fucionan una bifurcacion haciendo merge,
 
 ******************************************************************************************
 
+git remote add origin + URL: este comando agrega a git un espacio en un repositorio remoto como Github.
+
+git remote: no dice en git donde esta el origen de nuestro repositorio.
+    -git remote -v muestra la dirccion url asignada al espacio remoto
+
+git push origin master: este comando envia la rama master a el espacio remote en el caso de github se pedira un login si se usa el envio mediante htts. Si el repositorio remoto tiene archivos, se debera hacer una actualizacion en la rama master del repositorio local.Esto se podria hacer con un "git fech + un git merge" o directamente haciendo un "git pull origin master"
+
+git pull origin master: se trae todo lo que esta en el repositorio. Probablemente salga una advertencia y eso es porque toca fusionar la historia de cambios del espacio remoto con los de la rama master local y esto se hace con  --allow-unrelated-histories.
 
